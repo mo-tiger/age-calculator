@@ -7,4 +7,4 @@ print('Your Date Of Birth Is',day,'/',month,'/',year)
 year1 =to.year - year
 month1 = to.month - month
 day1 = to.day - day
-print('Your age is',year1,'years',month1,'month','and',day1,'days')
+print('Your age is {} years {} month and {} days'.format(year1,month1,day1))
